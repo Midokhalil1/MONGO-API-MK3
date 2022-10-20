@@ -49,6 +49,8 @@ export async function updateFurniture(req, res) {
       res.status(500).send(err);
       return;
     });
-  res.set("Cache-Control", "public, max-age=300, s-maxage");
+  res.set("Cache-Control", "public, max-age=300, s-maxage=600");
   res.status(202).send({ message: "Updated furniture " });
+  res.send(collection);
 }
+console.log("testinng");
