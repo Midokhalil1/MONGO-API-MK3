@@ -54,3 +54,4 @@ export async function updateFurniture(req, res) {
   res.send(collection);
 }
 console.log("testinng");
+console.log("testing2");
