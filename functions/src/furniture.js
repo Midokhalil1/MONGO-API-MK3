@@ -53,5 +53,3 @@ export async function updateFurniture(req, res) {
   res.status(202).send({ message: "Updated furniture " });
   res.send(collection);
 }
-console.log("testing");
-console.log("testing2");
